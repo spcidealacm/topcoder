@@ -1,0 +1,323 @@
+{
+  "Info": [
+    {
+      "id": "one",
+      "number": 1,
+      "order": 14,
+      "property": [
+        "number",
+        "addValue"
+      ],
+      "tag": "1",
+      "key": [
+        "1"
+      ],
+      "rule": [
+        ""
+      ]
+    },
+    {
+      "id": "two",
+      "number": 2,
+      "order": 13,
+      "property": [
+        "number",
+        "addValue"
+      ],
+      "tag": "2",
+      "key": [
+        "2"
+      ],
+      "rule": []
+    },
+    {
+      "id": "three",
+      "number": 3,
+      "order": 12,
+      "property": [
+        "number",
+        "addValue"
+      ],
+      "tag": "3",
+      "key": [
+        "3"
+      ],
+      "rule": []
+    },
+    {
+      "id": "four",
+      "number": 4,
+      "order": 8,
+      "property": [
+        "number",
+        "addValue"
+      ],
+      "tag": "4",
+      "key": [
+        "4"
+      ],
+      "rule": []
+    },
+    {
+      "id": "five",
+      "number": 5,
+      "order": 9,
+      "property": [
+        "number",
+        "addValue"
+      ],
+      "tag": "5",
+      "key": [
+        "5"
+      ],
+      "rule": []
+    },
+    {
+      "id": "six",
+      "number": 6,
+      "order": 10,
+      "property": [
+        "number",
+        "addValue"
+      ],
+      "tag": "6",
+      "key": [
+        "6"
+      ],
+      "rule": []
+    },
+    {
+      "id": "seven",
+      "number": 7,
+      "order": 7,
+      "property": [
+        "number",
+        "addValue"
+      ],
+      "tag": "7",
+      "key": [
+        "7"
+      ],
+      "rule": []
+    },
+    {
+      "id": "eight",
+      "number": 8,
+      "order": 6,
+      "property": [
+        "number",
+        "addValue"
+      ],
+      "tag": "8",
+      "key": [
+        "8"
+      ],
+      "rule": []
+    },
+    {
+      "id": "nine",
+      "number": 9,
+      "order": 5,
+      "property": [
+        "number",
+        "addValue"
+      ],
+      "tag": "9",
+      "key": [
+        "9"
+      ],
+      "rule": []
+    },
+    {
+      "id": "zero",
+      "number": 0,
+      "order": 16,
+      "property": [
+        "number",
+        "zero",
+        "addValue"
+      ],
+      "tag": "0",
+      "key": [
+        "0"
+      ],
+      "rule": [
+        "firstNotDouble"
+      ]
+    },
+    {
+      "id": "plus",
+      "order": 11,
+      "property": [
+        "operator",
+        "pureOperator",
+        "addValue"
+      ],
+      "tag": "+",
+      "key": [
+        "+"
+      ],
+      "rule": [
+        "canNotUseFirst",
+        "canNotUseWithOperator",
+        "canNotUseWithPointer"
+      ]
+    },
+    {
+      "id": "minus",
+      "order": 4,
+      "property": [
+        "operator",
+        "pureOperator",
+        "addValue"
+      ],
+      "tag": "-",
+      "key": [
+        "-"
+      ],
+      "rule": [
+        "canNotUseFirst",
+        "canNotUseWithOperator",
+        "canNotUseWithPointer"
+      ]
+    },
+    {
+      "id": "multiply",
+      "order": 3,
+      "property": [
+        "operator",
+        "pureOperator",
+        "addValue"
+      ],
+      "tag": "*",
+      "key": [
+        "*"
+      ],
+      "rule": [
+        "canNotUseFirst",
+        "canNotUseWithOperator",
+        "canNotUseWithPointer"
+      ]
+    },
+    {
+      "id": "divide",
+      "order": 2,
+      "property": [
+        "operator",
+        "pureOperator",
+        "addValue"
+      ],
+      "tag": "/",
+      "key": [
+        "/"
+      ],
+      "rule": [
+        "canNotUseFirst",
+        "canNotUseWithOperator",
+        "canNotUseWithPointer"
+      ]
+    },
+    {
+      "id": "equal",
+      "order": 18,
+      "property": [
+        "operator",
+        "equal",
+        "showResult"
+      ],
+      "tag": "=",
+      "key": [
+        "=",
+        "Enter"
+      ],
+      "rule": [
+        "canNotUseFirst",
+        "canNotUseWithOperator",
+        "canNotUseWithPointer"
+      ]
+    },
+    {
+      "id": "clear",
+      "order": 1,
+      "property": [
+        "operator",
+        "clear",
+        "invisible"
+      ],
+      "tag": "Clear",
+      "key": [
+        "c",
+        "C"
+      ],
+      "rule": [
+        "clearAll"
+      ]
+    },
+    {
+      "id": "point",
+      "order": 17,
+      "property": [
+        "pointer",
+        "addValue"
+      ],
+      "tag": ".",
+      "key": [
+        ".",
+        "。"
+      ],
+      "rule": [
+        "canNotUseFirst",
+        "canNotUseWithOperator",
+        "canNotUseWithPointer",
+        "canNotUseIfTheNumAlreadyHavePointer"
+      ]
+    },
+    {
+      "id": "delete",
+      "order": 15,
+      "property": [
+        "operator",
+        "delete",
+        "invisible"
+      ],
+      "tag": "Del",
+      "key": [
+        "Backspace"
+      ],
+      "rule": [
+        "canNotUseFirst",
+        "clearLast"
+      ]
+    },
+    {
+      "id": "history",
+      "property": [
+        "operator",
+        "history",
+        "invisible"
+      ],
+      "tag": null,
+      "key": [
+        "h",
+        "H"
+      ],
+      "rule": [
+        "showOrHideHistory"
+      ]
+    }
+  ],
+  "rule": [
+    {
+      "id": "float",
+      "property": {
+        "Accuracy": 6
+      }
+    },
+    {
+      "id": "length",
+      "property": {
+        "Accuracy": 8
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+@import './src/fonts/fonts.css';
+
+:root {
+  --dark-primary-color: #333333;
+  --light-primary-color: #f8f8f8;
+  --screen-color: #a7af7c;
+  --screen-light-color: #bebebe;
+  --clear-color: #f00000;
+  --clear-deep-color: #d20000;
+  --equal-color: #2196f3;
+  --equal-deep-color: #1479c9;
+  --delete-color: #08979c;
+  --delete-deep-color: #006d75;
+  --transition-color: #ffffff5c;
+
+  --span-size: 100px;
+  --gap-size: calc(var(--span-size) / 3);
+  --dark-calculator-background-shadow:
+    25px 25px 75px rgba(0, 0, 0, 0.25),
+    10px 10px 70px rgba(0, 0, 0, 0.25),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.5),
+    inset 5px 5px 15px rgba(0, 0, 0, 0.5);
+  --light-calculator-background-shadow:
+    25px 25px 75px rgba(0, 0, 0, 0.15),
+    10px 10px 70px rgba(0, 0, 0, 0.15),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.15),
+    inset 5px 5px 15px rgba(0, 0, 0, 0.05);
+
+  --light-text-shadow: 1px 1px 2px #fff;
+  --dark-text-shadow: 1px 1px 2px #000;
+
+  --text-area-width: calc(var(--span-size) * 4 + var(--gap-size) * 3);
+  --text-area-screen-shadow:
+    inset 2px 2px 10px var(--screen-light-color),
+    inset -2px -2px 10px #fff;
+
+  --light-span-color: rgb(250, 250, 250);
+  --light-span-deep-color: rgb(244, 244, 244);
+  --light-span-background: var(var(--light-span-color));
+  --light-span-background-linear: linear-gradient(var(--light-span-color), var(--light-span-deep-color));
+  --light-span-shadow:
+    inset -8px 0 8px rgba(0, 0, 0, 0.15),
+    inset 0 -8px 8px rgba(0, 0, 0, 0.25),
+    0 0 10px 4px rgba(0, 0, 0, 0.5),
+    10px 20px 25px rgba(0, 0, 0, 0.4);
+
+  --dark-span-color: rgb(63, 63, 63);
+  --dark-span-deep-color: rgb(47, 47, 47);
+  --dark-span-background: var(--dark-span-color);
+  --dark-span-background-linear: linear-gradient(var(--dark-span-color), var(--dark-span-deep-color));
+  --dark-span-shadow:
+    inset -8px 0 8px rgba(0, 0, 0, 0.15),
+    inset 0 -8px 8px rgba(0, 0, 0, 0.25),
+    0 0 10px 4px rgba(0, 0, 0, 0.5),
+    10px 20px 25px rgba(0, 0, 0, 0.4);
+
+  --image-size: 80px;
+  --light-image-shadow:
+    2px 2px 4px #fff,
+    inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+  --light-image-active-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.15),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.15);
+  --dark-image-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.15),
+    -1px -1px 6px rgba(0, 0, 0, 0.15);
+  --dark-image-active-shadow:
+    2px 2px 4px #fff,
+    inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+  --span-mousedown-shadow:
+    inset -8px 0 8px rgba(0, 0, 0, 0.15),
+    inset 0 -8px 8px rgba(0, 0, 0, 0.15),
+    0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+
+
+  --dark-span-before-border: 1px solid var(--dark-primary-color);
+  --dark-span-before-deep-background: rgb(45, 45, 45);
+  --dark-span-before-background: rgb(77, 77, 77);
+  --dark-span-before-background-linear:
+    linear-gradient(90deg, var(--dark-span-before-deep-background), var(--dark-span-before-background));
+  --dark-span-before-box-shadow:
+    -5px -5px 15px rgba(0, 0, 0, 0.1),
+    -1px -1px 5px 0.5px rgba(255, 255, 255, 0.05),
+    10px 5px 10px rgba(0, 0, 0, 0.15);
+
+  --light-span-before-border: 1px solid var(--light-primary-color);
+  --light-span-before-deep-background: rgb(230, 230, 230);
+  --light-span-before-background: rgb(239, 239, 239);
+  --light-span-before-background-linear:
+    linear-gradient(90deg, var(--light-span-before-deep-background), var(--light-span-before-background));
+  --light-span-before-box-shadow:
+    -10px -10px 10px rgba(255, 255, 255, 0.25),
+    10px 5px 10px rgba(0, 0, 0, 0.15);
+
+  --clear-before-background-linear: linear-gradient(120deg, var(--clear-color), var(--transition-color));
+  --delete-before-background-linear: linear-gradient(120deg, var(--delete-color), var(--transition-color));
+  --equal-before-background-linear: linear-gradient(120deg, var(--equal-color), var(--transition-color));
+}
