@@ -13,7 +13,7 @@
         "1"
       ],
       "rule": [
-        ""
+        "canNotUseAfterResult"
       ]
     },
     {
@@ -28,7 +28,9 @@
       "key": [
         "2"
       ],
-      "rule": []
+      "rule": [
+        "canNotUseAfterResult"
+      ]
     },
     {
       "id": "three",
@@ -42,7 +44,9 @@
       "key": [
         "3"
       ],
-      "rule": []
+      "rule": [
+        "canNotUseAfterResult"
+      ]
     },
     {
       "id": "four",
@@ -56,7 +60,9 @@
       "key": [
         "4"
       ],
-      "rule": []
+      "rule": [
+        "canNotUseAfterResult"
+      ]
     },
     {
       "id": "five",
@@ -70,7 +76,9 @@
       "key": [
         "5"
       ],
-      "rule": []
+      "rule": [
+        "canNotUseAfterResult"
+      ]
     },
     {
       "id": "six",
@@ -84,7 +92,9 @@
       "key": [
         "6"
       ],
-      "rule": []
+      "rule": [
+        "canNotUseAfterResult"
+      ]
     },
     {
       "id": "seven",
@@ -98,7 +108,9 @@
       "key": [
         "7"
       ],
-      "rule": []
+      "rule": [
+        "canNotUseAfterResult"
+      ]
     },
     {
       "id": "eight",
@@ -112,7 +124,9 @@
       "key": [
         "8"
       ],
-      "rule": []
+      "rule": [
+        "canNotUseAfterResult"
+      ]
     },
     {
       "id": "nine",
@@ -126,7 +140,9 @@
       "key": [
         "9"
       ],
-      "rule": []
+      "rule": [
+        "canNotUseAfterResult"
+      ]
     },
     {
       "id": "zero",
@@ -142,7 +158,8 @@
         "0"
       ],
       "rule": [
-        "firstNotDouble"
+        "firstNotDouble",
+        "canNotUseAfterResult"
       ]
     },
     {
@@ -176,7 +193,6 @@
         "-"
       ],
       "rule": [
-        "canNotUseFirst",
         "canNotUseWithOperator",
         "canNotUseWithPointer"
       ]
@@ -267,6 +283,7 @@
       ],
       "rule": [
         "canNotUseFirst",
+        "canNotUseAfterResult",
         "canNotUseWithOperator",
         "canNotUseWithPointer",
         "canNotUseIfTheNumAlreadyHavePointer"
