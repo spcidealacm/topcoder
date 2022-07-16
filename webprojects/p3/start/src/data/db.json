@@ -258,7 +258,8 @@
       "property": [
         "operator",
         "clear",
-        "invisible"
+        "invisible",
+        "clearAll"
       ],
       "tag": "Clear",
       "key": [
@@ -266,7 +267,7 @@
         "C"
       ],
       "rule": [
-        "clearAll"
+        
       ]
     },
     {
@@ -295,15 +296,15 @@
       "property": [
         "operator",
         "delete",
-        "invisible"
+        "invisible",
+        "clearLast"
       ],
       "tag": "Del",
       "key": [
         "Backspace"
       ],
       "rule": [
-        "canNotUseFirst",
-        "clearLast"
+        "canNotUseFirst"
       ]
     },
     {
